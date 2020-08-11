@@ -1,0 +1,114 @@
+
+
+if(x==4)
++ print("x is 4")else if
++ (x==3)print("x is 3")else if
++ (x==5)print("x is 5")else
++ print("no value match")
+[1] "x is 5"
+
+
+============================
+b=7
+> if(b==6){print("condition b==6 is true")} else if(b==7){print("condition b==7 is true")}else {print("condition b==8 is true")}
+[1] "condition b==7 is true"
+
+
+===========
+
+a<-11
+> b<-4
+> if(a<b){
++ print("a is smaller")
++ }else if(b<a)
++ {
++ print("b is smaller")
++ }else
++ {
++ print("No input")
++ }
+[1] "b is smaller"
+================================
+f(x==2)
++ print("x is 2")else if
++ (x==3)
++ print("x is 3")else
++ print("not found")
+[1] "not found"
+
+===================================
+
+x<-3
+> if(x==2){print("Its good")}else if(x==5){print("its not good")}else{print("False")}
+[1] "False"
+>
+
+======================
+b=7
+> if(b==6){print("condition b==6 is true")} else if(b==7){print("condition b==7 is true")}else {print("condition b==8 is true")}
+[1] "condition b==7 is true"
+=======================================
+a=4
+> b=2
+> x=switch(a/b,"good","better","best")
+> print(x)
+[1] "better"
+>
+====================================
+y = 3
+> x = switch(
++ y,
++ "Good Morning",
++ "Good Afternoon",
++ "Good Evening",
++ "Good Night"
++ )
+> print (x)
+[1] "Good Evening"
+>
+==================
+y = 3
+> x = switch(
++ y,
++ "Good Morning",
++ "Good Afternoon",
++ "Good Evening",
++ "Good Night"
++ )
+> print (x)
+[1] "Good Evening"
+>
+=========================
+> y=3
+> x=switch(y,"option 1","option 2","option 3","option 4")
+> print(x)
+[1] "option 3"
+>===========================
+> a=2
+> b=8
+> x=switch(
++ paste(a,b,sep=""),
++ "9"="Good Morning",
++ "12"="Good Afternoon",
++ "28"="Good Evening",
++ "21"="Good Night")
+> print(x)
+[1] "Good Evening"
+===================================
+> a=1
+> repeat{
++ print(a)
++ a=a+1
++ if(a>6){
++ break
++ }
++ }
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+>
+==========================
+
